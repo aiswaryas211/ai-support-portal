@@ -4,19 +4,27 @@ A full-stack AI-powered support platform built to streamline customer service wo
 
 ---
 
-## 🚀 Key Features
+🚀 Key Features
 
-- Role-based authentication (Admin, Agent, Customer)
-- Real-time chat between customer and agent (WebSocket-based)
-- Complete ticket lifecycle management
-- AI-powered knowledge base with RAG architecture
-- Groq LLM integration for fast inference
-- YouTube API integration for video-based knowledge ingestion
-- Ticket classification and AI-generated summaries
-- Administrative analytics dashboard
-- RESTful API with secure permission handling
-- Modular architecture for scalability and maintainability
+Role-based authentication (Admin, Agent, Customer)
 
+Real-time chat between customer and agent (WebSocket-based)
+
+Complete ticket lifecycle management
+
+AI-powered knowledge base with RAG architecture
+
+Groq LLM integration with streaming response support
+
+YouTube API integration for video-based knowledge ingestion
+
+Ticket classification and AI-generated summaries
+
+Admin performance analytics and agent tracking dashboard
+
+RESTful API with secure permission handling
+
+Modular architecture for scalability and maintainability
 ---
 
 ## 🛠️ Tech Stack
@@ -89,15 +97,6 @@ npm run dev
 
 ---
 
-## 🎯 Future Enhancements
-
-- Streaming LLM responses
-- Docker deployment
-- Cloud hosting integration
-- Advanced analytics dashboard
-- CI/CD pipeline
-
----
 
 ## 👩‍💻 Author
 
