@@ -1,0 +1,111 @@
+.login-page {
+  background: #f5f7fb;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card.modern {
+  width: 420px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.login-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.login-subtitle {
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+form label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 14px;
+  display: block;
+}
+
+form input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.password-field {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.remember {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.forgot {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-text {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-home {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-weight: 500;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.back-home:hover {
+  color: #2563eb;
+}

@@ -1,0 +1,60 @@
+.chat-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.msg {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: 80%;
+  font-size: 14px;
+}
+
+.msg.user {
+  background: #0d6efd;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.msg.bot {
+  background: #f1f1f1;
+  color: #000;
+}
+
+.input-box {
+  display: flex;
+  margin-top: 10px;
+  gap: 6px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-box button {
+  padding: 8px 12px;
+}
+
+.ticket-box {
+  margin-top: 6px;
+}
+
+.ticket-box button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}

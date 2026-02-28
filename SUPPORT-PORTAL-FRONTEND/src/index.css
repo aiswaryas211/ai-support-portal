@@ -1,0 +1,27 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Theme */
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #f1f5f9;  /* light blue-gray */
+  color: #1f2937;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
