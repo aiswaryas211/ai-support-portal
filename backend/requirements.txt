@@ -1,0 +1,26 @@
+# -------- Core Backend --------
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+python-multipart
+jinja2
+
+# -------- Auth & Security --------
+passlib[bcrypt]==1.7.4
+bcrypt>=4.0.1
+python-jose==3.3.0
+
+# -------- Pydantic (IMPORTANT) --------
+pydantic==1.10.7
+email-validator
+
+# -------- AI / RAG Stack --------
+sentence-transformers
+chromadb==0.4.24
+groq
+
+# -------- Document Processing --------
+pypdf
+python-docx
+PyPDF2
