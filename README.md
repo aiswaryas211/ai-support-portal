@@ -1,64 +1,115 @@
-🤖 AI Support Portal
+# 🤖 AI Support Portal
 
-A full-stack AI-powered helpdesk platform designed to provide real-time customer-agent communication, intelligent ticket management, and scalable AI-driven automation through RAG architecture and LLM integration.
+A full-stack AI-powered support platform built to streamline customer service workflows including real-time communication, intelligent ticket management, AI-driven knowledge retrieval, and scalable automation through RAG architecture and LLM integration.
 
-🚀 Key Features
+---
 
-Role-based authentication (Admin, Agent, Customer)
+## 🚀 Key Features
 
-Real-time chat between customer and agent (WebSocket-based)
+- Role-based authentication (Admin, Agent, Customer)
+- Real-time chat between customer and agent (WebSocket-based)
+- Complete ticket lifecycle management
+- AI-powered knowledge base with RAG architecture
+- Groq LLM integration for fast inference
+- YouTube API integration for video-based knowledge ingestion
+- Ticket classification and AI-generated summaries
+- Administrative analytics dashboard
+- RESTful API with secure permission handling
+- Modular architecture for scalability and maintainability
 
-Complete ticket lifecycle management
+---
 
-AI-powered knowledge base with RAG architecture
+## 🛠️ Tech Stack
 
-Ticket classification and AI-generated summaries
+### Frontend
+- React
+- Vite
+- JavaScript
+- CSS
+- Axios
+- WebSocket integration
 
-YouTube API integration for video-based knowledge ingestion
+### Backend
+- FastAPI
+- SQLAlchemy
+- JWT Authentication
+- WebSockets
+- ChromaDB (Vector Store)
+- Groq API
+- YouTube Data API
+- SQLite
 
-Groq LLM integration for fast AI inference
+---
 
-Admin analytics and performance monitoring
+## 📂 Project Structure
 
-RESTful API with secure permission handling
+```
+AI_Support_Portal/
+│
+├── backend/                     # FastAPI REST API and AI services
+└── SUPPORT-PORTAL-FRONTEND/     # React client application
+```
 
-Modular architecture for scalability and maintainability
+---
 
-🛠 Tech Stack
-Backend
+## ⚙️ Installation & Setup
 
-FastAPI
+### Backend Setup
+```
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
 
-SQLAlchemy
+### Frontend Setup
+```
+cd SUPPORT-PORTAL-FRONTEND
+npm install
+npm run dev
+```
 
-JWT Authentication
+---
 
-WebSockets
+## 🔐 User Roles
 
-ChromaDB (Vector Store)
+- Admin → System overview, analytics, performance monitoring  
+- Agent → Ticket handling, live chat, customer support  
+- Customer → Ticket creation, AI knowledge access, real-time chat  
 
-Groq API
+---
 
-YouTube Data API
+## 🧠 AI Capabilities
 
-Frontend
+- Retrieval-Augmented Generation (RAG) pipeline
+- Vector-based document indexing
+- LLM-powered ticket classification
+- AI-generated summaries
+- YouTube content ingestion for knowledge expansion
+- Modular AI service layer for scalability
 
-React (Vite)
+---
 
-Role-based routing
+## 🎯 Future Enhancements
 
-REST + WebSocket integration
+- Streaming LLM responses
+- Docker deployment
+- Cloud hosting integration
+- Advanced analytics dashboard
+- CI/CD pipeline
 
-Modular component architecture
+---
 
-🧠 AI Architecture
+## 👩‍💻 Author
 
-Retrieval-Augmented Generation (RAG) pipeline
+Aiswarya S  
+AI & Full-Stack Developer  
 
-Vector-based document indexing
+---
 
-LLM-powered classification and summarization
+## ⭐ Project Highlights
 
-External API integration layer
-
-Modular AI service abstraction for scalability
+- Demonstrates full-stack SaaS architecture
+- Implements real-time WebSocket communication
+- Integrates Groq-powered LLM services
+- Supports RAG-based semantic retrieval
+- Built with scalable and modular design principles
