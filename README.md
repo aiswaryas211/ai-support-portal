@@ -1,46 +1,37 @@
 🤖 AI Support Portal
 
-📌 Overview
+A full-stack AI-powered helpdesk platform designed to provide real-time customer-agent communication, intelligent ticket management, and scalable AI-driven automation through RAG architecture and LLM integration.
 
-AI Support Portal is a full-stack intelligent helpdesk system built with a scalable, AI-ready architecture. It provides role-based dashboards for Admins, Agents, and Customers, along with real-time chat and AI-powered automation.
+🚀 Key Features
 
-The system integrates RAG-based knowledge retrieval, Groq-powered LLM services, YouTube API ingestion, and WebSocket-based real-time messaging to simulate a production-grade SaaS support platform.
+Role-based authentication (Admin, Agent, Customer)
 
-🔐 Core Features
-
-JWT-based role authentication (Admin, Agent, Customer)
+Real-time chat between customer and agent (WebSocket-based)
 
 Complete ticket lifecycle management
-
-Real-time customer-agent chat using WebSockets
 
 AI-powered knowledge base with RAG architecture
 
 Ticket classification and AI-generated summaries
 
-YouTube Data API integration for video knowledge ingestion
+YouTube API integration for video-based knowledge ingestion
 
-Admin analytics and agent performance tracking
+Groq LLM integration for fast AI inference
 
-🧠 AI & Automation Layer
+Admin analytics and performance monitoring
 
-Modular RAG pipeline with vector storage
+RESTful API with secure permission handling
 
-Groq API integration for LLM inference
-
-Semantic document retrieval
-
-AI-based ticket classification and summarization
-
-Designed for scalable LLM integration
+Modular architecture for scalability and maintainability
 
 🛠 Tech Stack
-
 Backend
 
 FastAPI
 
 SQLAlchemy
+
+JWT Authentication
 
 WebSockets
 
@@ -57,3 +48,17 @@ React (Vite)
 Role-based routing
 
 REST + WebSocket integration
+
+Modular component architecture
+
+🧠 AI Architecture
+
+Retrieval-Augmented Generation (RAG) pipeline
+
+Vector-based document indexing
+
+LLM-powered classification and summarization
+
+External API integration layer
+
+Modular AI service abstraction for scalability
